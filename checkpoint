@@ -1,2 +1,2 @@
-model_checkpoint_path: "myLeNetSave"
-all_model_checkpoint_paths: "myLeNetSave"
+model_checkpoint_path: "myLeNetSave.ckpt"
+all_model_checkpoint_paths: "myLeNetSave.ckpt"
