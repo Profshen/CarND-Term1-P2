@@ -5,6 +5,8 @@
 
 This project is about using deep learning, specifically convolutional neural networks, to classify images of German traffic signs. This is an important problem, for being able to classify an image of a traffic sign according to its type will allow a self-driving car to make important decisions.
 
+*I wrote a less technical write-up of this project on Medium [here](https://medium.com/@SealedSaint/classifying-traffic-signs-728744d3deac).* 
+
 ### Exploring the Dataset
 In Step 1, I explore the dataset and identify some relevant information:
  * There 34,799 training images and 12,630 testing images
