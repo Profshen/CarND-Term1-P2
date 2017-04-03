@@ -25,7 +25,10 @@ I pre-shuffled the data just to make sure it was good and mixed - no groupings o
 Conveniently, the data came pre-divided into training, validation, and test sets. All I had to do was pre-process each of these sets accordingly.
 
 ### The Model
-My model can best be described as the standard LeNet architecture with a few tweaks. The two major tweaks I made are:
+
+![LeNet architecture](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/lenet.png)
+
+My model can best be described as the standard LeNet architecture (pictured above) with a few tweaks. The two major tweaks I made are:
  1. Account for color images instead of just grayscale
  2. Add a third convolutional layer
 
@@ -66,10 +69,13 @@ The final results from training were a **validation accuracy of 97%** and a **tr
 ### Testing the Network on My Own Images
 As a helpful exercise I downloaded five different pictures of German traffic signs from the web to see how my model would classify them. The five images, after pre-processing, are shown below.
 
-
+![30 speed limit](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/Downloaded_Signs/30%20speed.png)
+![100 speed limit](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/Downloaded_Signs/100%20speed.png)
+![Yield](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/Downloaded_Signs/yield.png)
+![Road work](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/Downloaded_Signs/road%20work.png)
+![Go straight or right](https://github.com/SealedSaint/CarND-Term1-P2/blob/master/Downloaded_Signs/straight%20or%20right.png)
 
 The results of the model’s predictions for these five images (in order) are summarized in the table below.
-
 
 |Actual Sign  |Predicted Sign  |Softmax Probability
 |------------ |------------ |----
